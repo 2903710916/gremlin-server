@@ -24,5 +24,4 @@ def globals = [:]
 */
 
 // define the default TraversalSource to bind queries to - this one will be named "g".
-// globals << [g : graph1.traversal(), g1 : graph2.traversal()]
 globals << [g : graph.traversal()]
